@@ -16,7 +16,8 @@ export default {
       colors:{
         pink: '#FFE5FA',
         white: '#FDFAED',
-        pinkk: '#E494D5'
+        pinkk: '#E494D5',
+        gris: '#434343'
       },
     },
   },

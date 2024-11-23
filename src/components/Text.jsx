@@ -8,6 +8,7 @@ function Text (){
             <p className="
             text-shadow-xl
             text-xl
+            text-gris
             ">
             Hi, I'm Tobias. I'm a 21-year-old
             <span className="text-pinkk"> programmer and designer </span>
