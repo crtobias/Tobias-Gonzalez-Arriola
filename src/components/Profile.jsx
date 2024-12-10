@@ -3,7 +3,7 @@ import git from "../assets/GitHub.svg"
 import Linkedin from "../assets/Linkedin.svg"
 import email from "../assets/Gmail Logo.svg"
 import cv from "../assets/Attach.svg"
-import ig from "../assets/instagram.svg"
+import ig from "../assets/ig.svg"
 import icon from "../assets/Perfile.jpg"
 
 function Profile() {
