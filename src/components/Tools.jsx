@@ -42,7 +42,7 @@ export default function Tools() {
       ];
 
       return (
-        <div className="m-3 p-6 max-w-[60vw] flex flex-wrap gap-4">
+        <div className=" m-3 p-6 max-w-[80vw] flex justify-center flex-wrap gap-4 sm:max-w-[60vw]">
 
             
 

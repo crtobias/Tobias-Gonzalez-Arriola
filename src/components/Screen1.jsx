@@ -4,7 +4,7 @@ import Text from "./Text";
 export default function Screen1() {
     return (
         <div className="pt-10 flex flex-col min-h-[100vh]">
-            <h2 className="mt-12 w-full pl-9 text-2xl sm:text-4xl">
+            <h2 className="text-black mt-12 w-full pl-9 text-2xl sm:text-4xl">
                 Welcome to my portfolio
             </h2>
 
