@@ -1,7 +1,4 @@
 
-// import flag from "../../public/Flag.svg";
-// import flagsh from "../assets/FlagSh.svg";
-
 function FlagButton({ logo }) {
   return (
     <div
@@ -9,7 +6,7 @@ function FlagButton({ logo }) {
       style={{
         backgroundImage: `url(/Flag.svg)`,
       }}
-      onMouseEnter={(e) => (e.currentTarget.style.backgroundImage = `url(/Flag.svg)`)} //asd
+      onMouseEnter={(e) => (e.currentTarget.style.backgroundImage = `url(/FlagSh.svg)`)}
       onMouseLeave={(e) => (e.currentTarget.style.backgroundImage = `url(/Flag.svg)`)}
     >
       <img className="h-8 w-8 " src={logo} alt="logo" />
