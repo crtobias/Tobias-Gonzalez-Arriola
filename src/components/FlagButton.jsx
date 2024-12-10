@@ -1,19 +1,6 @@
-// import flag from "../assets/Flag.svg"
-// import flagsh from "../assets/Flag-Sh.svg"
-
-// function FlagButton({logo}){
-//     return(
-//         <div className=" bg-[url('../assets/Flag.svg')]  relative h-12 w-20  flex justify-center items-center pr-5">
-//             <img className="h-8 w-8 z-10" src={logo} alt="logo" />
-//         </div>
-//     )
-// }
-
-// export default FlagButton
-
 
 import flag from "../assets/Flag.svg";
-import flagsh from "../assets/Flag-Sh.svg";
+import flagsh from "../assets/FlagSh.svg";
 
 function FlagButton({ logo }) {
   return (
