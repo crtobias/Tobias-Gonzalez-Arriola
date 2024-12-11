@@ -4,7 +4,7 @@ import Linkedin from "../assets/Linkedin.svg"
 import email from "../assets/Gmail Logo.svg"
 import cv from "../assets/Attach.svg"
 import ig from "../assets/ig.svg"
-import icon from "../assets/Perfile.jpg"
+import icon from "../assets/foto.png"
 
 function Profile() {
     return (
