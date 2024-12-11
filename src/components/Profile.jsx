@@ -21,7 +21,7 @@ function Profile() {
                 <a href='https://github.com/crtobias' target="_blank" className=""><FlagButton logo={git}></FlagButton></a>
                 <a href='https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/' target="_blank" className=""><FlagButton logo={Linkedin}></FlagButton></a>
                 <a href='mailto:tgonzalezarriola@gmail.com' target="_blank" className=""><FlagButton logo={email}></FlagButton></a>
-                <a href='' target="_blank" className=""><FlagButton logo={cv}></FlagButton></a>
+                <a href='https://drive.google.com/file/d/1pDbskH_85CTFDXHogDVvveIFbwDAX7Pf/view' target="_blank" className=""><FlagButton logo={cv}></FlagButton></a>
                 <a href='https://www.instagram.com/crtobias__/' target="_blank" className=""><FlagButton logo={ig}></FlagButton></a>
 
             </div>
