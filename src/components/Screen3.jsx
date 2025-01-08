@@ -1,6 +1,7 @@
 import CardProyect from "./CardProyect"
 import elmolino from "../assets/El-Molino.png"
 import login from "../assets/Login-Proyect.png"
+import Task from "../assets/task.jpeg"
 export default function Screen3() {
 
     const proyectoUno={
@@ -23,6 +24,16 @@ export default function Screen3() {
         date:"November 2024 - December 2024"
     }
 
+    const proyectoTres={
+        title:"CRUD Tasks",
+        text:"technical test for a Full-Stack developer position",
+        img:Task,
+        stackFront:"React, HTML, tailwind, Javascript, React Router, React Context, vercel",
+        stackBack:"Javascript , Node.JS , Express , MongoDB , Mongoose , mongoAtlas , express Validator , swagger , jest , supertest and Render deploy",
+        git:"https://github.com/crtobias/PT-Task-Frontend",
+        date:"December 2024"
+    }
+
 
 
 
@@ -33,6 +44,7 @@ export default function Screen3() {
 
             <div className="flex flex-col p-9 gap-9 items-center ">
 
+                <CardProyect proyecto={proyectoTres}/>
                 <CardProyect proyecto={proyectoDos}/>
                 <CardProyect proyecto={proyectoUno}/>
 
