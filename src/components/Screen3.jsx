@@ -2,6 +2,7 @@ import CardProyect from "./CardProyect"
 import elmolino from "../assets/El-Molino.png"
 import login from "../assets/Login-Proyect.png"
 import Task from "../assets/task.jpeg"
+import habits from "../assets/habits.png"
 export default function Screen3() {
 
     const proyectoUno={
@@ -13,6 +14,17 @@ export default function Screen3() {
         git:"https://github.com/crtobias/El-Molino",
         date:"July 2023 - August 2023"
     }
+
+    const proyectoHabits = {
+        title: "Habits - React Native App",
+        text: "Developed a mobile application designed to help users adopt and eliminate habits, focusing on personal growth and self-improvement. The app includes features like habit tracking, user authentication, and email verification.",
+        img: habits, 
+        stackFront: "React Native, NativeWind, Expo Router, TailwindCSS",
+        stackBack: "Node.js, Express.js, MongoDB, Prisma ORM, JWT, Nodemailer",
+        git: "https://github.com/crtobias/Habits-native-Enero",
+        date: "January 2025",
+    };
+
 
     const proyectoDos={
         title:"Back End - Login/Register Template",
@@ -43,7 +55,7 @@ export default function Screen3() {
             <h3 className="text-black text-4xl border-b border-black pl-9 pb-9">Projects</h3>
 
             <div className="flex flex-col p-9 gap-9 items-center ">
-
+                <CardProyect proyecto={proyectoHabits}/>
                 <CardProyect proyecto={proyectoTres}/>
                 <CardProyect proyecto={proyectoDos}/>
                 <CardProyect proyecto={proyectoUno}/>
