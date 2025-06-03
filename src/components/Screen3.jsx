@@ -4,6 +4,9 @@ import login from "../assets/Login-Proyect.png"
 import Task from "../assets/task.jpeg"
 import habits from "../assets/habits.png"
 import esmarket from "../assets/Esmarket.png"
+import nokki from "../assets/eNooki.png"
+import editor from "../assets/editor.png"
+
 export default function Screen3() {
 
     const proyectoUno = {
@@ -15,6 +18,26 @@ export default function Screen3() {
         git: "https://github.com/crtobias/El-Molino",
         date: "July 2023 - August 2023"
     }
+
+    const proyectoEditor = {
+        title: "Text Editor",
+        text: "A text editor built with Next.js and Firebase, currently a work in progress and paused. Started in March 2025. This app allows you to create summaries, save them in the cloud, and keep your notes and summaries uploaded. You can create, edit, and format text freely — adjusting size, colors, and more. It uses a custom system inspired by Markdown but without using Markdown directly.",
+        img: editor,
+        stackFront: "Next.js, various libraries",
+        stackBack: "Firebase",
+        git: "",
+        date: "March 2025 - Present (paused)"
+    };
+
+    const proyectoNoki = {
+        title: "Undef",
+        text: "A cooperative, multiplatform isometric game started in May 2025, currently in progress. Built using React Native and Firebase backend. It includes real-time features using WebSockets, a custom Shopgrounds system, cloud functions, and more.",
+        img: nokki,
+        stackFront: "React Native",
+        stackBack: "Firebase",
+        git: "",
+        date: "May 2025 - Present"
+    };
 
     const proyectoHabits = {
         title: "Habits - React Native App",
@@ -56,7 +79,7 @@ export default function Screen3() {
         stackBack: "Firebase Authentication, Firestore, Firebase Storage",
         deploy: "https://es-market-landing.vercel.app/",
         date: "February 2025",
-        yt:"https://youtu.be/hbn6aZ1qfy4?si=byd-3fjCIzNip9cN",
+        yt: "https://youtu.be/hbn6aZ1qfy4?si=byd-3fjCIzNip9cN",
     };
 
 
@@ -66,6 +89,8 @@ export default function Screen3() {
             <h3 className="text-black text-4xl border-b border-black pl-9 pb-9">Projects</h3>
 
             <div className="flex flex-col p-9 gap-9 items-center ">
+                <CardProyect proyecto={proyectoNoki} />
+                <CardProyect proyecto={proyectoEditor} />
                 <CardProyect proyecto={esMarketProject} />
                 <CardProyect proyecto={proyectoHabits} />
                 <CardProyect proyecto={proyectoTres} />
