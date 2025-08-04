@@ -26,7 +26,7 @@ export default function Screen3() {
         stackFront: "Next.js, various libraries",
         stackBack: "Firebase",
         git: "",
-        date: "March 2025 - Present (paused)"
+        date: "March 2025 - May 2025 (paused)"
     };
 
     const proyectoNoki = {
@@ -35,8 +35,8 @@ export default function Screen3() {
         img: nokki,
         stackFront: "React Native",
         stackBack: "Firebase",
-        git: "",
-        date: "May 2025 - Present"
+        git: "https://github.com/crtobias/react-native-isometric-game-online",
+        date: "May 2025 - Jun 2025"
     };
 
     const proyectoHabits = {
